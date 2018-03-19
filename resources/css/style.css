@@ -80,21 +80,13 @@ span {
 
 
 #main {
-  margin-top: 6rem;
-  border: 1px solid black;
-  padding: 13rem auto;
-  justify-content: center;
-}
-
-#main .container-fluid {
-  justify-content: center;
-  align-items: center;
+  margin: 6rem auto;
 }
 
 .about {
   background-color: #D8D4D5;
-  height: 300px;
-  width: 300px;
+  height: 17rem;
+  width: 17rem;
   margin: 1rem;
   padding: 0;
 /* NOTE:   display: flex;
