@@ -24,6 +24,17 @@ body {
   font-weight: bold;
 }
 
+#logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo img {
+  height: 3rem;
+  width: auto;
+}
+
 ul.navbar-right {
   padding-top: 5px;
 }
@@ -40,6 +51,7 @@ ul.navbar-right {
 
 h1 {
   margin: 1.78rem;
+  margin-left: 0;
   font-weight: 900;
 }
 
