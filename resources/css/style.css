@@ -82,7 +82,7 @@ span {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url('../../resources/images/optimizilla/carl-heyerdahl-181868-unsplash_sm-min.jpg');
+  background-image: url('../../resources/images/optimizilla/carl-heyerdahl-181868-unsplash_sm-min_NEW.jpg');
 }
 
 .jumbotron img {
@@ -107,9 +107,6 @@ span {
   cursor: pointer;
 }
 
-.about:hover {
-  background-color: #e2e2e2;
-}
 
 .about h3 {
     font-size: 1.25rem;
@@ -130,16 +127,40 @@ span {
 }
 
 
+/* NOTE: test
 .image-container img {
   width: 100%;
   height: 100%;
 }
-
+.about:hover {
+  background-color: #e2e2e2;
+}
 .image-container {
   height: 70%;
   width: 90%;
   margin: 5%;
+} */
+
+
+
+.image-container {
+  overflow: hidden;
+  height: 70%;
+  width: 90%;
+  margin: 5%;
 }
+
+ .image-container img {
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+  transition: transform .5s, opacity .5s;
+ }
+
+ .image-container img:hover {
+   opacity: 1;
+   transform: scale(1.3);
+ }
 
 /* NOTE: Contact section */
 
