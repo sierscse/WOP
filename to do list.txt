@@ -1,0 +1,7 @@
+1-- make border of contact form the same color as the greenish color of the word "write" in the logo
+
+2-- find less colorfully jartring image for "build it"
+
+3 remove ! exclamation points.
+
+4 use https://coolors.co/6da34d-384d48-acad94-d8d4d5-e2e2e2 and make all colors part of this palette, --mobile menu button should be #6da34d,submit too. 
