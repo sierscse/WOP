@@ -17,8 +17,12 @@
     <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+	
+	
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+
+   <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
   <body>
@@ -107,17 +111,32 @@
 
 
 
+ <div class="main centmarg">
 
 
-        <div id="contact">
-          <h1>CONTACT</h1>
-          <p>Name:</p>
-          <p>Email:</p>
-          <p>Comment or Question:</p>
-          <br>
-          <br>
-          <button>Submit</button>
-        </div>
+				<form id='contact' ACTION="/cgibin/FormMail.pl" METHOD="POST">
+							
+
+				<p><strong>Name:&nbsp;</strong>
+				<input "text" name="name" size="20"></p>
+				<p><strong>E-Mail:&nbsp;&nbsp; </strong>
+				<input type="text" name="email" size="20"></p>
+				<p><strong>Subject:</strong>&nbsp;&nbsp;
+				<input type="text" name="subject" <p size="20"></p>
+				<b>
+				<p> Query:</b><br>
+				<textarea name="message" rows="8"  cols="35"> </textarea></p>
+								<p >
+				<input type="submit"><!--webbot bot="HTMLMarkup" StartSpan --><!--webbot BOT="HTMLMarkup" endspan -->
+				</p>
+
+				
+								<p><input type="hidden" name="redirect" value="http://atbreslin.com/wop/confirm.htm"/></p>
+				</form>
+	
+		</div>
+		
+		
         <div id="adr">
               <span><i class="fa fa-briefcase fa-fw"></i>WriteOnPoint Communications, Inc.</span>
               <span><i class="fa fa-home fa-fw"></i>Philadelphia, PA</span>

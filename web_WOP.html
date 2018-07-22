@@ -12,17 +12,29 @@
     <meta name="msapplication-TileColor" content="#acad94">
     <meta name="theme-color" content="#3b5249">
     <!-- NOTE: stylesheets -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet">
-    <!-- NOTE:     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <!-- NOTE: <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+	
+
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+	
+<script type="text/javascript" src="js/mobilenavscript.js"></script>
+
   </head>
 
   <body>
-    <nav class= "navbar navbar-default navbar-fixed-top">
+  <header>
+    <nav id='bighead' class= "navbar navbar-default">
        <div class="container-fluid">
         <div class="navbar-left collapse navbar-collapse">
           <div>
@@ -30,68 +42,102 @@
           </div>
         </div>
          <ul class="nav navbar-nav navbar-right navbar-text">
-           <li><a href="web_WOP.html" class="active">Web</a></li>
-           <li><a href="writing_WOP.html">Writing</a></li>
-           <li><a href="writing_WOP.html">Research</a></li>
+           <li><a href="web_WOP.html" class='active'>Web</a></li>
+           <li><a href="writing_WOP.html" >Writing</a></li>
+           <li><a href="research_WOP.html" >Research</a></li>
            <li><a href="SEO_WOP.html">SEO</a></li>
            <li><a href="#contact">Contact</a></li>
          </ul>
        </div>
      </nav>
+	 
+	 
+	 
+	     <div id='smallmenudiv' class='showsmall'>
+            <div id ='smalllogo'><a href="index.html"><h1>Write<span><i class="fas fa-bullseye fa-lg"></i>nPoint<span></h1></a></div>
+         
+	 
+
+	   </div>
+	   
+	   	 		      <p id ='menu' class='showsmall'>
+        <a href="#" class="btn btn-info btn-lg">
+          <span class="glyphicon glyphicon-th-list"> Menu</span> 
+        </a>
+      </p> 
+
+	  
+		<div id='mobilenav'>
+		<ul>
+		
+           <li><a href="web_WOP.html" class='active'>Web</a></li>
+           <li><a href="writing_WOP.html" >Writing</a></li>
+           <li><a href="research_WOP.html" >Research</a></li>
+           <li><a href="SEO_WOP.html">SEO</a></li>
+           <li><a href="#contact">Contact</a></li>
+			
+		
+		</ul>
+		</div>
+	 
+	 
+	 
+	 
   </header>
 
 
-<br>
-<br>
-<br>
-<br>
-<br>
+<!-- NOTE: main section -->
+  <div class="main centmarg">
 
-<div class='main'>
-    <div id='services'>
-      <h2>Services</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi ullam harum sint aspernatur amet asperiores dolorem voluptatem pariatur tempora, at, earum commodi natus quam autem? Dolorum doloribus fugiat libero mollitia.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique doloremque mollitia eos ratione cumque fugiat itaque commodi nemo ullam ea aut perspiciatis, recusandae officiis esse possimus provident molestias alias praesentium?</p>
-    <ul>
-      <li>Web Hosting</li>
-      <li>Email</li>
-      <li>Website Development</li>
-      <li>Database and Forms</li>
-    </ul>
-    </div>
-    <div id='sample'>
-      <div>
-        <h2>Sample Websites</h2>
-      <h3>US History</h3>
-      <p>ABOUT THE SITE AND CLIENT RELATIONSHIP: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur odio velit beatae error eligendi quaerat, illo temporibus? Deleniti, fugit omnis commodi harum natus modi in soluta provident nostrum atque aut.</p>
-      <ul>
-        <li>Redesign....</li>
-        <li>Mobile view optimization.....</li>
-        <li>Revenue increase of $-- over X years</li>
-      </ul>
-      <a href="http://www.ushistory.org/" target="_blank">www.ushistory.org</a>
-      </div>
-      <div>
-         <img src="https://docs.google.com/drawings/d/e/2PACX-1vQq1jM5bnRuGicewth-AHYTKqAO29tKmrOjmna8ZZ6GxwdAASopYoYV0E3LPDHt_lnnx_VKYH7W6_qG/pub?w=921&h=521" alt="">
-      </div>
-    </div>
-    <div>
-      <h1><em>***INSERT CAROUSEL OR SCROLL FEATURE TO LOOK AT SELECT EXAMPLES***</em></h1>
-    </div>
+    <h3>We can build  it!</h3>
+
+	<div class='picl responsive'><img class='responsive' src='resources/images/craftsman.png'></div>
+	
+	<p>If you need a website built from scratch and don't know where to start, we can build it for you. If you've already got a website, and want to update it, we can help you modernize.</p>
+	<p>If your site was made in the bygone era of desktop dominance, you're going to want to add a responsive design so visitors can see it properly on phones and pads. We can help you join the mobile world. </p>
+	<p>We're well versed in CSS, JavaScript and SQL, so if your site needs some modern visual effects, interactive functionality, or to store and retrieve data from a database, we've got you covered.</p>
+   
+   
+
+	<br/>
+	
+	<hr/>
+	
+	
+			<div id='contactform'>
+				 <form ACTION="/cgibin/FormMail.pl" METHOD="POST">
+							
+
+								<p><strong>Name:&nbsp;</strong>
+				<input "text" name="name" size="20"></p>
+								<p><strong>E-Mail:&nbsp;&nbsp; </strong>
+				<input type="text" name="email" size="20"></p>
+								<p><strong>Subject:</strong>&nbsp;&nbsp;<strong>
+				</strong><input type="text" name="subject" <p size="20"></p>
+				<b>
+				<p> Query:</b><br>
+				<textarea name="message" rows="8"  cols="35"> </textarea></p>
+								<p>
+				<input type="submit"><!--webbot bot="HTMLMarkup" StartSpan --><!--webbot BOT="HTMLMarkup" endspan -->
+				</p>
+			<p>&nbsp;</p>					<p><font color="#000080"><big><strong>Or:</strong></big></font></p>
+				<p><big><strong>&nbsp;&nbsp;&nbsp;<font color="#000080">Email&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:info@writeonpoint.com"><font color="336699">info@writeonpoint.com</a></font></strong></big></p>
+					   <p><big><strong>&nbsp;&nbsp;&nbsp;<font color="#000080">Phone&nbsp;&nbsp; 610-647-4991</font></strong></big></p>
+				<p><big><strong>
+				&nbsp;&nbsp;
+				
+								<p><input type="hidden" name="redirect" value="http://atbreslin.com/wop/confirm.htm"/></p>
+							</form>
+			</div>
+	
+	
+	
+
   </div>
 
 
 
 
-        <div id="contact">
-          <h1>CONTACT</h1>
-          <p>Name:</p>
-          <p>Email:</p>
-          <p>Comment or Question:</p>
-          <br>
-          <br>
-          <button>Submit</button>
-        </div>
         <div id="adr">
               <span><i class="fa fa-briefcase fa-fw"></i>WriteOnPoint Communications, Inc.</span>
               <span><i class="fa fa-home fa-fw"></i>Philadelphia, PA</span>
@@ -99,16 +145,19 @@
               <span><i class="fa fa-phone fa-fw"></i>215-555-1212</span>
         </div>
 
-        <footer>
-          <p>&copy 2018 WriteOnPoint Communications</p>
-          <ul>
-            <a href="index.html"><li>Home</li></a>
-           <a href="web_WOP.html"><li>Web</li></a>
-           <a href="writing_WOP.html"><li>Writing</li></a>
-           <a href="research_WOP.html"><li>Research</li></a>
-           <a href="research_WOP.html"><li>SEO</li></a>
-           <a href="#contact"><li>Contact</li></a>
-         </ul>
-         </footer>
+     <footer>
+       <p>&copy 2018 WriteOnPoint Communications</p>
+       <ul>
+         <a href="index.html"><li>Home</li></a>
+        <a href="web_WOP.html"><li>Web</li></a>
+        <a href="writing_WOP.html" class="active"><li>Writing</li></a>
+        <a href="research_WOP.html" ><li>Research</li></a>
+        <a href="SEO_WOP.html"><li>SEO</li></a>
+        <a href="#contact"><li>Contact</li></a>
+      </ul>
+      </footer>
+
+      <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+
   </body>
 </html>
